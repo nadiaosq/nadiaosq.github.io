@@ -73,8 +73,83 @@ h2 {
     color: #2C3E50;
 }
 
-#contact p{
+/* Email Card */
+.social-card.email:hover::before {
+    background: #ea4335;
+}
+
+.social-card.email:hover {
+    border-color: #ea4335;
+    background: linear-gradient(135deg, #fff, #fce8e6);
+}
+
+/* LinkedIn Card */
+.social-card.linkedin:hover::before {
+    background: #0077b5;
+}
+
+.social-card.linkedin:hover {
+    border-color: #0077b5;
+    background: linear-gradient(135deg, #fff, #e3f2fd);
+}
+
+/* GitHub Card */
+.social-card.github:hover::before {
+    background: #333;
+}
+
+.social-card.github:hover {
+    border-color: #333;
+    background: linear-gradient(135deg, #fff, #f5f5f5);
+}
+
+.social-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-card.email .social-icon {
+    color: #ea4335;
+}
+
+.social-card.linkedin .social-icon {
+    color: #0077b5;
+}
+
+.social-card.github .social-icon {
+    color: #333;
+}
+
+.social-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
     color: #2c3e50;
+}
+
+.social-card p {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.contact-link {
+    display: inline-block;
+    background: #f8f9fa;
+    color: #2c3e50;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.social-card:hover .contact-link {
+    background: #2c3e50;
+    color: white;
 }
 
 footer{
