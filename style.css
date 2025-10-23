@@ -447,7 +447,7 @@ header::before {
   
   .social-card {
     min-height: 120px;
-    padding: 16px 12px;
+    padding: 1px 1px;
   }
 }
 
