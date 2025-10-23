@@ -112,6 +112,7 @@ header::before {
   top: 0;
   z-index: 1000;
   box-shadow: var(--shadow-medium);
+  margin-top: 50px;
 }
 
 .main-nav a {
