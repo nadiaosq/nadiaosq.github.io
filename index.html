@@ -10,7 +10,7 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Hello, I'm Nadia 👋</h1>
+        <h1>Hello, I'm Nadia</h1>
         <p>Passionate Coding Learner</p>
     </header>
 
@@ -25,10 +25,10 @@
     <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
-            <img src="images/profile.jpg.png" alt="Foto Profil" width="150"loading="lazy">
+            <img src="images/profile.png" alt="Foto Profil" width="150">
             <div class="bio">
                 <p>I am currently learning web development and am passionate about creating attractive and functional websites!</p>
-                <p>Skills currently being studied: HTML, CSS, JavaScript & Python</p>
+                <p>Skills currently being studied: HTML, CSS, JavaScript & Python.</p>
             </div>
         </div>
     </section>
@@ -46,25 +46,60 @@
 
     <!-- Projects Section (PLACEHOLDER) -->
     <section id="projects">
-        <h2>My Projects</h2>
+    <h2> My Projects</h2>
+    <div class="projects-grid">
+        <!-- Project 1 -->
         <div class="project-card">
-            <h3>🚧 Portfolio Website</h3>
-            <p>My first portfolio website using HTML & CSS</p>
-            <span class="tech-tag">HTML</span>
-            <span class="tech-tag">CSS</span>
+            <div class="project-icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website built with HTML, CSS, and JavaScript. Fully responsive design with modern UI components.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">GitHub Pages</span>
+            </div>
+            <div class="project-links">
+                <a href="https://nadiaosq.github.io" class="project-link live" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                </a>
+                <a href="https://github.com/nadiaosq/nadiaosq.github.io" class="project-link code" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Source Code
+                </a>
+            </div>
         </div>
+
+        <!-- Project 2 -->
         <div class="project-card">
-            <h3>🎯 Coming Soon Project</h3>
-            <p>Exciting projects are currently in development!</p>
-            <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">Python</span>
+            <h3>🛠️ Coming Soon</h3>
+            <p>Full-stack application with modern architecture and best practices.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Local Storage</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link live">
+                    <i class="fas fa-external-link-alt"></i>
+                    Coming Soon
+                </a>
+                <a href="#" class="project-link code">
+                    <i class="fab fa-github"></i>
+                    Private Repo
+                </a>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-     <section id="contact">
+    <section id="contact">
     <h2>Connect With Me</h2>
-    <div class="social-grid">
+    <div class="social-cards-container">
         <a href="mailto:nadiajuliane85@gmail.com" class="social-card email">
             <div class="social-icon">
                 <i class="fas fa-envelope"></i>
